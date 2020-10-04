@@ -12,17 +12,17 @@ $(function(){
 
 
   $("#fr_title").click(function() {
-    //alert("Yeah!");
-    //$(".move").animate({top: '-750px'}, duration=4000);
-    //$(".move").css("transform", "translate(0,1000px)")
     $(".move").toggleClass("clicked");
     $(".containerA").toggleClass("clicked");
-    //$(".toto2").toggleClass("clicked");
-    //$(".toto3").toggleClass("clicked");
-    //setTimeout(function(){$(".move").removeClass("clicked")}, 3300);
-    delay("accueil_fr.html")
-
+    delay("accueil_fadein_fr.html")
   });
+
+  $("#en_title").click(function() {
+    $(".move").toggleClass("clicked");
+    $(".containerA").toggleClass("clicked");
+    delay("accueil_fadein_en.html")
+  });
+
 
 
 
