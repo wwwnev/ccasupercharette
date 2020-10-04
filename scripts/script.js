@@ -22,20 +22,4 @@ $(function(){
     $(".containerA").toggleClass("clicked");
     delay("accueil_fadein_en.html")
   });
-
-
-
-
 });
-
-
-
-/*$('button').click(function() {
-    $(".move").addClass('animated');
-    console.log('bbbbbKL');
-    setTimeout(function() {
-          $(".move").removeClass('animated');
-          console.log('AKKIADWKL');
-    }, 1500);
-});
-*/
