@@ -1,5 +1,5 @@
 function delay (URL) {
-    setTimeout( function() { window.location = URL }, 3300 );
+    setTimeout( function() { window.location = URL }, 3000 );
 }
 
 $(function(){
@@ -12,13 +12,13 @@ $(function(){
 
 
   $("#fr_title").click(function() {
-    $(".move").toggleClass("clicked");
+    $("body").toggleClass("clicked");
     $(".containerA").toggleClass("clicked");
     delay("accueil_fadein_fr.html")
   });
 
   $("#en_title").click(function() {
-    $(".move").toggleClass("clicked");
+    $("body").toggleClass("clicked");
     $(".containerA").toggleClass("clicked");
     delay("accueil_fadein_en.html")
   });
