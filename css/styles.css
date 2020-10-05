@@ -31,6 +31,7 @@ page index */
 
 .titles:hover{
   /*-webkit-filter: invert(15%);*/
+  cursor: pointer;
   filter: opacity(0.25);
   transform: scale(101%);
   transition: 0.5s;
@@ -199,7 +200,7 @@ Ajustements écrans petits */
   body, body.normal{
     background-image: url("../assets/bg1_1920v2mobile.jpg");
   }
-  
+
   .container_main {
     position: fixed;
     top: 0;
