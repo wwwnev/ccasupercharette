@@ -152,6 +152,10 @@ text body */
   box-sizing: content-box;
 }
 
+tr {
+  vertical-align: top;
+}
+
 /* ============================================================
 Footer block */
 
