@@ -131,7 +131,7 @@ text body */
 #paragraphSuperDiv {
   position: relative;
   overflow:hidden;
-  width: 500px;
+  width: 525px;
   max-width:60%;
   /*display: inline-block;*/
   left: 26%;
